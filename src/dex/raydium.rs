@@ -5,7 +5,7 @@ use crate::{
     },
     core::{
         token::{get_account_info, get_associated_token_address, get_mint_info},
-        tx,
+        txs,
     },
     engine::swap::{SwapDirection, SwapInType},
 };
@@ -25,7 +25,7 @@ use spl_token::{amount_to_ui_amount, state::Account, ui_amount_to_amount};
 use spl_token_client::token::TokenError;
 use std::{str::FromStr, sync::Arc};
 
-pub const AMM_PROGRAM: &str = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8";
+pub const AMM_PROGRAM: &str = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp81";
 
 #[derive(Debug, Deserialize)]
 pub struct PoolInfo {
@@ -134,7 +134,7 @@ impl Raydium {
         let mut create_instruction = None;
         let mut close_instruction = None;
 
-        tx::new_signed_and_send(
+        txs::new_signed_and_send(
             &client,
             &self.keypair,
             instructions,

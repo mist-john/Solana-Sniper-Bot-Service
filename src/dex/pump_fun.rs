@@ -20,12 +20,12 @@ use spl_token_client::token::TokenError;
 
 use crate::{
     common::{logger::Logger, utils::SwapConfig},
-    core::{token, tx},
+    core::{token, txs},
     engine::swap::{SwapDirection, SwapInType},
 };
 pub const TEN_THOUSAND: u64 = 10000;
 pub const TOKEN_PROGRAM: &str = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA";
-pub const RENT_PROGRAM: &str = "SysvarRent111111111111111111111111111111111";
+pub const RENT_PROGRAM: &str = "SysvarRent1111111111111111111111111111111111";
 pub const ASSOCIATED_TOKEN_PROGRAM: &str = "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL";
 pub const PUMP_GLOBAL: &str = "4wTV1YmiEkRvAtNtsSGPtUrqRYQMe5SKy2uB4Jjaxnjf";
 pub const PUMP_FEE_RECIPIENT: &str = "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM";
@@ -88,7 +88,7 @@ impl Pump {
         let mut create_instruction = None;
         let mut close_instruction = None;
 
-        tx::new_signed_and_send(
+        txs::new_signed_and_send(
             &client,
             &self.keypair,
             instructions,

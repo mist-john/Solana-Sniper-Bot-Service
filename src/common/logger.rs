@@ -1,6 +1,6 @@
 use chrono::Local;
 
-const LOG_LEVEL: &str = "LOG";
+const LOG_LEVEL: &str = "Sniper";
 
 pub struct Logger {
     prefix: String,
