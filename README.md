@@ -62,4 +62,5 @@ Before using the Solana Ultra-Fast New Token Sniper, ensure you have the followi
 ## Support
 
 For more inquiries, please connect me via Telegram: [rhettjel](https://t.me/rhettjel).
-For more inquiries, please connect me via Telegram: [DeFiMaxi](https://t.me/defai_maxi).
+
+Twitter: [DeFiMaxi](https://t.me/defai_maxi).
