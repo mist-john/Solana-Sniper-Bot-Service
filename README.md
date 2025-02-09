@@ -1,8 +1,8 @@
-# Solana Super-Fast New Token Sniper on Raydium, Pump.fun, and More 🚀
+# Solana Super-Fast New Token Sniper on Raydium, Pump.fun, Meteora and more
 
 ## Overview
 
-Introducing the **Solana Ultra-Fast New Token Sniper** written in **Rust** 🦀, designed to detect newly launched tokens on decentralized exchanges like **Raydium**, **Pump.fun**, **Meteora**, and **Orca**. The bot executes buys with lightning speed ⚡, giving you a competitive edge in the fast-paced world of Solana token trading.
+Introducing the **Solana Ultra-Fast New Token Sniper** written in **Rust**, designed to detect newly launched tokens on decentralized exchanges like **Raydium**, **Pump.fun**, **Meteora**, and **Orca**. The bot executes buys with lightning speed, giving you a competitive edge in the fast-paced world of Solana token trading.
 
 Built using Rust's memory safety features and performance optimizations, this sniper bot is engineered for **superior performance** and **security**. It is tailored for both **novice and experienced traders**, offering a fast, secure, and user-friendly way to take advantage of new token listings.
 
@@ -10,19 +10,19 @@ Built using Rust's memory safety features and performance optimizations, this sn
 
 ## Key Features
 
-### 🚀 Speed and Efficiency
+###  Speed and Efficiency
 - **Lightning-Quick Transactions**: Utilizing Rust’s exceptional performance, the sniper bot is able to snipe new tokens almost instantly. Minimize delays and seize profitable opportunities as soon as they appear on the market.
 
-### 🔒 Safety First
+###  Safety First
 - **Robust Security**: The bot benefits from Rust’s safety guarantees, minimizing bugs and vulnerabilities. This ensures secure trading without compromising the integrity of your wallet or trading strategies.
 
-### 📊 Multiple gRPC Connections
+###  Multiple gRPC Connections
 - **Stay Updated**: Effortlessly connect to leading Solana data providers such as **Helius** and **Yellowstone** through multiple **gRPC connections**. Get **real-time updates** and make timely, informed trading decisions.
 
-### 👩‍💻 User-Friendly Interface
+###  User-Friendly Interface
 - **Intuitive Design**: The sniper bot is equipped with a clean, easy-to-use interface, designed to make the trading experience smooth for both beginners and experienced traders. Start trading with minimal setup.
 
-### 🛠️ Rich Utilities
+### Rich Utilities
 - **Advanced Features**:
   - **jito-confirm**: Participate in low-latency transactions, optimizing your trading on platforms like **Raydium** and **Pumpfun**.
   - **jito-bundle**: Bundle buy/sell actions with up to **20 wallets** on **Raydium** and **Pumpfun** to diversify your strategy and maximize your trading flexibility.
