@@ -59,8 +59,6 @@ Before using the Solana Ultra-Fast New Token Sniper, ensure you have the followi
    git clone https://github.com/rhettbu/Solana-Sniper-Bot-Service.git
    cd solana-new-token-sniper
 
-## Support
 
-For more inquiries, please connect me via Telegram: [rhettjel](https://t.me/rhettjel).
 
-Twitter: [DeFiMaxi](https://t.me/defai_maxi).
+
